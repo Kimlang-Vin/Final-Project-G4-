@@ -1,0 +1,60 @@
+#Page{ 
+    text-align: right;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.mindset,.table,.croods, .horror, .kidbook,.novel, .crime,.popular,.discount,.Book,.croods,.comics, .adventure,.history{
+    width:145px;
+    Height:200px;
+    border-radius: 10px;
+}
+
+.card-view{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 145px;
+    Height: 250px;
+    margin:5px;
+    transition: 0.2s;
+}
+.card-view:hover{
+    border: 3px solid grey;
+    box-shadow: grey 4px 4px 5px 2px;
+    transition: 0.2s;
+}
+.title{
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+.desc{
+    color: grey;
+
+}
+.price{
+    text-align: end;
+}
+.row{
+    display: flex;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgb(243, 250, 149),rgb(221, 255, 72));
+}
+h1{
+    background-color: #fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+}

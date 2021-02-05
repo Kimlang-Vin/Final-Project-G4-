@@ -1,0 +1,48 @@
+.body {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.title {
+    text-align: center;
+    /* padding:10px; */
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+body {
+  background-color: rgb(253, 253, 239);
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+ 
+}
+
+input[type=submit] {
+  background-color:rgb(192, 228, 61);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(43, 53, 22)
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px;
+}
+.container {background-color: rgb(252, 253, 188);}
