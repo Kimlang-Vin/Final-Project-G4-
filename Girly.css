@@ -1,0 +1,81 @@
+
+body{
+    padding: 0px;
+}
+#Second{
+    width: 190px; height: 100px;
+    border-radius:25px;
+}
+#Third{
+    width: 350px; height: 200px;
+    border-image-repeat: round;
+}
+b{
+    color:darkslategray;
+}
+body{
+    background-color:lemonchiffon;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Contact{
+    width: 50px; height: 50px;
+}
+.Tabs{
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}    
+.Book{
+    width:300px; height:450px;
+}
+.card-view:hover{
+    border: 3px  solid grey;
+    transition: 0.2s;
+    box-shadow:grey 4px 4px 5px 2px;
+    border-width: medium;
+}
+
+
+.Book{
+    width:262px;
+    Height:360px;
+    border-radius: 10px;
+}
+.row{
+    padding: 15px;
+}
+
+
+.card-view2{
+    border-radius: 10px;
+    padding: 10px;
+    width: 262px;
+    Height: 450px;
+    margin:5px;
+    transition: 0.2s;
+}
+
+
+.title{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+.desc{
+    color: grey;
+}
+.price{
+    font-size: 20px;
+    text-align: end;
+}
+
+#First{
+    width: 100%;
+    opacity: 0.9;
+    height: 500px;
+}
+ul li{
+    font-size: 18px;
+}

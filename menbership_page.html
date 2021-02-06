@@ -1,43 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>final project</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books WildWorld</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="Girly.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
-<body>
-    <div class="title">
-        <h2>Apply For Membership</h2>
+  <body>
+    <div class="top-link">
+      <br>
+      <br>
+      <a class="Tabs" href="./home page.html">HOME</a>
+      <a class="Tabs" href="./Store page.html">STORE</a>
+      <a class="Tabs" href="./menbership_page.html">CONTACT US</a>
     </div>
+    <br>
     <div class="container">
-        <form action="/action_page.php">
-            <div>
-                <!-- input first name -->
-                <input type="text" id="fname" name="firstname" placeholder="First Name">
-                <!-- input last name -->
-                <input type="text" id="lname" name="lastname" placeholder="Last Name">
-            </div>
-            <!-- Email -->
-            <input type="text" id="country" name="country" placeholder="Email Address">
-            <!-- Phone -->
-            <input type="text" id="country" name="country" placeholder="Phone Number">
-            <!-- comment -->
-            <textarea id="subject" name="subject" placeholder="What do you think about our website?" style="height:200px"></textarea>
-            <p>The benefit of joining the membership</p>
-            <p> &#x2713;Discound 30% all full price in store</p>
-            <p>&#10003;Get to know about our the most hit book</p>
-            <input type="submit" value="Submit">
-            <div class="title">
-                <h3>Report Problem</h3>
-            </div>
-            <!-- REPORT -->
-            <label for="country">Do you need any help?</label>
-            <input type="text" id="country" name="country">
-            <input type="submit" value="Submit">
+      <div class="div">
+        <form action="" class="form">
+          <div class="title">
+            <h3>CONTACT US</h3>
+          </div>
+          <p>
+            Facebook Page:
+            <a href="https://facebook.com/">https://facebook.com/book.store</a>
+          </p>
+          <p>
+            Twitter Page:
+            <a href="https://twitter.com/">https://twitter.com/book.store</a>
+          </p>
+          <p>Email: <a href="https://gmail.com/">book.store@gmail.com</a></p>
         </form>
+        <form action="" class="form" style="margin-top: -4px">
+          <div class="title">
+            <h3>REPORT PROBLEM</h3>
+          </div>
+          <!-- REPORT -->
+          <label for="country">Do you need any help?</label>
+          <textarea
+            class="subject"
+            name="subject"
+            style="height: 200px"
+            cols="30"
+            rows="10"
+            placeholder="Write any problem you want us to help here"
+          ></textarea>
+          <!-- <input type="text" id="country" name="country" /> -->
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div class="member form">
+        <div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <form action="">
+          <div class="title">
+            <!-- <h2>Apply For Membership</h2> -->
+            <h2>APPLY FOR MEMBERSHIP</h2>
+          </div>
+          <div>
+            <!-- input first name -->
+            <input
+              type="text"
+              class="fname"
+              name="firstname"
+              placeholder="First Name"
+            />
+            <!-- input last name -->
+            <input
+              type="text"
+              class="lname"
+              name="lastname"
+              placeholder="Last Name"
+            />
+          </div>
+          <!-- Email -->
+          <input
+            type="email"
+            class="country"
+            name="country"
+            placeholder="Email Address"
+          />
+          <!-- Phone -->
+          <input
+            type="tel"
+            class="country"
+            name="country"
+            placeholder="Phone Number"
+          />
+          <!-- comment -->
+          <textarea
+            class="subject"
+            name="subject"
+            placeholder="What do you think about our website?"
+            style="height: 200px"
+          ></textarea>
+          <div>The benefit of joining the membership:</div>
+          <p>
+            &nbsp; &nbsp; &nbsp; &nbsp; <b>&#x2713;</b> Discound 30% all full
+            price in store<br />
+            &nbsp; &nbsp; &nbsp; &nbsp; <b>&#10003;</b> Get to know about our
+            the most hit book
+          </p>
+          <input type="submit" value="Apply" />
+        </form>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

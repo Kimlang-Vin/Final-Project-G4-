@@ -23,7 +23,7 @@
     background-color: white;
     padding: 10px;
     width: 145px;
-    Height: 250px;
+    Height: fit-content;
     margin:5px;
     transition: 0.2s;
 }
@@ -39,7 +39,6 @@
 }
 .desc{
     color: grey;
-
 }
 .price{
     text-align: end;
